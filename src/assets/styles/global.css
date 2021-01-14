@@ -1,0 +1,26 @@
+.c-button {
+    padding: 0.75rem 1.25rem;
+    color: #fff;
+    background: var(--color-primary);
+    font-size: 1rem;
+    border-radius: 2rem;
+    border: none;
+    outline: 0;
+    font-weight: bolder;
+    line-height: 1rem;
+    cursor: pointer;
+}
+
+.c-button:not( :last-child ) {
+    margin-right: 1.5rem;
+}
+
+.c-button.c-button--alt {
+    color: #2e2e2e;
+    background: rgba(255,255,255,0.85);
+}
+
+.c-button.c-button--outline {
+    border: 1px solid var( --color-primary );
+    background: transparent;
+}

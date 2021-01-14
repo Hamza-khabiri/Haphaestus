@@ -1,0 +1,5 @@
+html {
+    --color-primary: #ff8040;
+    --navbar-height: 3.5rem;
+    --background-primary: linear-gradient( to bottom, rgba(0,0,0,0.85), #000 );
+}

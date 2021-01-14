@@ -1,0 +1,15 @@
+{
+  "name": "Hephaestus",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "serve": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@gridsome/source-strapi": "^0.2.0",
+    "gh-pages": "^3.1.0",
+    "gridsome": "^0.7.0",
+    "vue-simple-markdown": "^1.1.4"
+  }
+}
