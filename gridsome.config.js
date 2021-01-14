@@ -6,6 +6,8 @@
 
 module.exports = {
   siteName: 'Haphaestus Labs',
+  siteUrl: 'https://Hamza-khabiri.github.io',
+  pathPrefix: '/Haphaestus',
   plugins: [
     {
       use: '@gridsome/source-strapi',
